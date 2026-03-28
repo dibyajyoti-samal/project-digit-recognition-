@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibyajyoti Samal | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            color: white;
+        }
+
+        /* Glass Effect */
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            margin: 20px;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00f7ff;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            padding: 25px;
+            margin: 20px 0;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin: 20px;
+        }
+
+        /* Apply glass class */
+        header, nav, .card, footer {
+            backdrop-filter: blur(10px);
+        }
+
+        /* Hover effect */
+        .card:hover {
+            transform: translateY(-5px);
+            transition: 0.3s;
+        }
+
+    </style>
+</head>
+<body>
+
+<header class="glass">
+    <h1>Dibyajyoti Samal</h1>
+    <p>Web Developer | AI Enthusiast | Student</p>
+</header>
+
+<nav class="glass">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card glass">
+        <h2>About Me</h2>
+        <p>Hello! I'm Dibyajyoti Samal, a passionate developer interested in web development and machine learning. I enjoy building real-world projects.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card glass">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python & Flask</li>
+            <li>Machine Learning</li>
+            <li>SQL & Database</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="card glass">
+        <h2>Projects</h2>
+        <ul>
+            <li>Alzheimer Disease Prediction System</li>
+            <li>Student Management System</li>
+            <li>Portfolio Website</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card glass">
+        <h2>Contact</h2>
+        <p>Email: your-email@example.com</p>
+        <p>Phone: +91-XXXXXXXXXX</p>
+    </div>
+</section>
+
+<footer class="glass">
+    <p>© 2026 Dibyajyoti Samal</p>
+</footer>
+
+</body>
+</html>
